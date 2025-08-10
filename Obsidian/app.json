@@ -1,0 +1,28 @@
+{
+  "mobilePullAction": "command-palette:open",
+  "mobileToolbarCommands": [
+    "command-palette:open",
+    "obsidian-tasks-plugin:edit-task",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:swap-line-up",
+    "editor:swap-line-down",
+    "editor:cycle-list-checklist",
+    "editor:insert-link",
+    "editor:attach-file",
+    "editor:toggle-blockquote",
+    "editor:configure-toolbar",
+    "editor:toggle-code",
+    "editor:insert-codeblock"
+  ],
+  "attachmentFolderPath": "./attachments",
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "autoPairMarkdown": false,
+  "autoPairBrackets": false,
+  "promptDelete": false,
+  "newFileLocation": "current",
+  "userIgnoreFilters": [
+    "captures/"
+  ]
+}

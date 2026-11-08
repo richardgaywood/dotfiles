@@ -1,0 +1,10 @@
+# test edit with chezmoi
+
+alias igpu_llm="sudo sysctl iogpu.wired_limit_mb=43008"
+
+# oMLX: CLI shim path begin
+case ":$PATH:" in
+  *":$HOME/.omlx/bin:"*) ;;
+  *) export PATH="$HOME/.omlx/bin:$PATH" ;;
+esac
+# oMLX: CLI shim path end

@@ -1,0 +1,6 @@
+{{ if ne .chezmoi.hostname "mac-work" }}
+Google Drive/ObsidianCorp
+{{ end }}
+{{ if ne .chezmoi.hostname "rg-mbp-m5-26" }}
+projects/obsidian/Brain^2
+{{ end }}
